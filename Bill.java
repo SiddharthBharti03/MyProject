@@ -107,7 +107,7 @@ public class Bill {
              System.out.println("Total amount :"+amount);
              System.out.print("Purchase date : ");
              //Here,Locale class is used to select different language and country 
-             Locale locale =  Locale.of("en","US");
+             Locale locale =  Locale.of("hi","IN");
              getDate(locale);
              getCurrency(locale);
         }
@@ -128,7 +128,7 @@ public class Bill {
             System.out.println("Quantity of product : "+qun);
              System.out.println("Total amount :"+amount);
              System.out.print("Purchase date : ");
-             Locale locale =  Locale.of("en","US");
+             Locale locale =  Locale.of("hi","IN");
              getDate(locale);
              getCurrency(locale);
         }
@@ -148,7 +148,7 @@ public class Bill {
             System.out.println("Quantity of product : "+qun);
              System.out.println("Total amount :"+amount);
              System.out.print("Purchase date : ");
-             Locale locale =  Locale.of("en","US");
+             Locale locale =  Locale.of("hi","IN");
              getDate(locale);
              getCurrency(locale);
         }
